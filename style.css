@@ -55,8 +55,8 @@ body{
 .group:nth-child(1){
     min-height: 19rem;
 }
-.logo-Instagram{
-    height: 15rem;
+.logo-instagram{
+    height: 10rem;
 }
 .profile-photo{
     display: flex;
@@ -114,4 +114,30 @@ body{
 
 .app-download:nth-child(2){
     background-image: url('./img/google.png');
+}
+
+/*medidas queries*/
+
+@media( max-width: 1024px){
+    .instagram-wapper{
+        width: 90%;
+    }
+}
+
+@media(max-width: 650px){
+    body{
+        background-color: #ffffff;
+    }
+    .instagram-wapper{
+        width: 90%;
+    }
+    .instagram-phone{
+       display: none; 
+    }
+    .instagram-continue{
+        width: 100%;
+    }
+    .group{
+        border-radius: 1px solid transparent;
+    }
 }
